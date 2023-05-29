@@ -18,4 +18,4 @@ So developers are welcome to give it a try.
 
 **Modified By Adedamola Israel Adebayo Copyright (c) 2022** || Python backend engineer
 
-**Reviewed  Osaigbovo Idada James Copyright (c) 2022** || Full Stack Engineer
+**Reviewed By  Osaigbovo Idada James Copyright (c) 2022** || Full Stack Engineer
