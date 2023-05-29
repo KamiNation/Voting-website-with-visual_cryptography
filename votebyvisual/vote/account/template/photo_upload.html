@@ -1,0 +1,13 @@
+# blog/templates/blog/photo_upload.html
+{% extends "voting/base.html" %}
+{% block content %}
+    <h2>Upload a Photo</h2>
+    <form method="post" enctype="multipart/form-data">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <button type="submit" >Submit</button>
+    </form>
+    {% if form.instance.image %}
+      <img src="{{ form.instance.image.url }}" alt="Image">
+    {% endif %}
+{% endblock content %}
